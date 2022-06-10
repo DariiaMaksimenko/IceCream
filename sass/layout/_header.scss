@@ -8,7 +8,7 @@
     }
 }
 .header__logo{
-    margin-top: 8px;
+    margin-top: 37px;
 }
 .menu-open-btn{
     margin-left: auto;
@@ -22,6 +22,7 @@
 }
 .navigation{
     display: none;
+
      @include tablet {
         display: flex;
         flex-wrap: wrap;
@@ -29,6 +30,7 @@
     @include desktop {
         display: flex;
         flex-wrap: wrap;
+        margin-top: 52px;
     }
 }
 .menu-list{
@@ -80,6 +82,7 @@
     line-height: 1.31;
     color: #D41443;
     padding: 0 37px; 
+    margin-top: 40px;
         &:hover,
         &:focus{
             background: #ECEBEB;

@@ -13,16 +13,20 @@
 }
 .banner .container{
     display: flex;
-    
+    height: 664px;
      @include tablet {
        
     }
     @include desktop {
-        
+        // background-image:url(../img/banner-girl-desktop.png);
+        // background-repeat: no-repeat;
+        // background-position: right;
+        // background-position-y:bottom;
     }
+    
 }
 .banner__right{
-    padding: 136px 0 202px 16px;
+    padding: 136px 88px 202px 0px;
 }
 .banner__text--red{   
     font-size: 58px;
@@ -98,4 +102,7 @@
     width: 534px;
     height: 534px;
     margin-top: 54px;
+}
+.banner__girl{
+    position: absolute;
 }
